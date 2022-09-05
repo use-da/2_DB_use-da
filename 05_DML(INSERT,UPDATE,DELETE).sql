@@ -88,10 +88,12 @@ SELECT *FROM EMP_01;
 -- UPDATE 테이블명 SET 컬럼명 = 바꿀값 [WHERE 컬럼명 비교연산자 비교값];
 
 -- DEPARTMENT2 테이블에서 DEPT_ID가 'D9'인 부서 정보 조회
-
+SELECT*FROM DEPARTMENT2;
 
 -- DEPARTMENT2 테이블에서 DEPT_ID가 'D9'인 행의 DEPT_TITLE을 '전략기획팀' 으로 수정
-
+UPDATE DEPARTMENT2
+SET DEPT_TITLE='전략기획팀'
+WHERE DEPT_ID='D9';
 
 -- UPDATE 확인
 
