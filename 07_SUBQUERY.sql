@@ -27,8 +27,6 @@ WHERE DEPT_CODE =(SELECT DEPT_CODE
 					FROM EMPLOYEE
 					WHERE EMP_NAME='노옹철');
                    
-                   
-                   
 -- 서브쿼리 예시 2.
 -- 전 직원의 평균 급여보다 많은 급여를 받고 있는 직원의 사번, 이름, 직급코드, 급여 조회
 
